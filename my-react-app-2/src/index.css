@@ -1,0 +1,91 @@
+
+body{
+    background-color: hsla(0, 0%, 0%, 0.125);
+}
+.to-do-list{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin: 100px;
+}
+
+h1{
+    font-size: 4rem;
+}
+
+button{
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+
+
+}
+
+.add-button{
+    background-color: hsl(120, 91%, 45%);
+}
+
+.add-button:hover{
+    background-color:  hsl(120, 91%, 35%);
+}
+
+.DeleteBTN{
+    background-color: hsl(0, 94%, 50%);
+}
+
+.DeleteBTN:hover{
+    background-color: hsl(0, 94%, 40%);
+}
+
+.move-btn{
+    background-color: hsl(200, 96%, 54%);
+}
+
+.move-btn:hover{
+    background-color: hsl(200, 96%, 44%);
+}
+
+input[type="text"]
+{
+    padding: 10px;
+    font-size: 1.5rem;
+    border: 2px solid hsl(39, 46%, 93%);
+    border-radius: 100px;
+    color: black;
+
+
+}
+
+ol{
+    list-style-type: none;
+}
+
+li{
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 15px;
+    background-color: rgba(150, 150, 150, 0.274);
+    margin-bottom: 15px;
+
+    border:3px solid rgb(142, 137, 137);
+
+    border-radius: 100px;
+
+    display: flex;
+    align-items: center;
+    
+}
+
+.text{
+    flex:1;
+}
+
+.move-btn, .DeleteBTN{
+    padding: 8px 12px;
+    font-size: 2rem;
+    margin-left: 10px;
+}
